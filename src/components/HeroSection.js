@@ -14,7 +14,7 @@ function HeroSection() {
         muted
       />
       <h1>
-       BODY FITNESS, <br /> TRANSFORM YOUR BODY
+       WEB APP FOR FITNESS, <br /> TRANSFORM YOUR BODY
       </h1>
       <TypeWriter typing={0.5} className="hero-typeWriter">
         What are you waiting for?

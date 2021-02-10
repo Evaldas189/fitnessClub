@@ -17,15 +17,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"
-              text="
-you can choose and order a service you like and enjoy its benefits for a long time. see what services the training club offers"
+              text="you can choose and order a service you like and enjoy its benefits for a long time. see what services the training club offers"
               label="Services"
               path="/services"
             />
             <CardItem
               src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-              text="
-You can always choose a type of training and a trainer that will help you understand the workouts more easily"
+              text="You can always choose a type of training and a trainer that will help you understand the workouts more easily"
               label="Schedule"
               path="/schedule"
             />
@@ -42,8 +40,7 @@ You can always choose a type of training and a trainer that will help you unders
             />
             <CardItem
               src="https://images.unsplash.com/photo-1577877319317-b5b6ac30f3ac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80"
-              text="
-Swimming is also included in our workout program. You can always try your hand at our large swimming pool. There will be a plenty of space for everyone"
+              text="Swimming is also included in our workout program. You can always try your hand at our large swimming pool. There will be a plenty of space for everyone"
               label="Pool"
               path="/services"
             />
