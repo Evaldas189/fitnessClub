@@ -53,6 +53,12 @@ function Cards() {
             />
           </ul>
         </div>
+        <iframe
+          width="420"
+          height="345"
+          title="Fitness video"
+          src="https://www.youtube.com/embed/PY6DrbX4W4o"
+        ></iframe>
       </div>
     </div>
   );
