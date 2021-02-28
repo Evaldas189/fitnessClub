@@ -6,7 +6,7 @@ import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import SignUp from "./components/pages/SignUp";
 import Schedule from "./components/pages/Schedule";
-import InfoPage from "./components/InfoPage";
+import AboutService from "./components/AboutService";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/schedule" component={Schedule} />
           <Route path="/sign-up" component={SignUp} />
-          <Route path="/info" component={InfoPage} />
+          <Route path="/info" component={AboutService} />
         </Switch>
       </Router>
     </>

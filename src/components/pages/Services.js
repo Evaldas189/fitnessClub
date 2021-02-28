@@ -16,9 +16,9 @@ function Services() {
         }}
       >
         <h1 style={{ marginBottom: 20 }}>SERVICES</h1>
-        <p>
+        <p style={{ textAlign:"center", margin:10}}>
           Here you can choose the service you like at a certain price. the more
-          expensive the service, the more benefits it brings to your workouts{" "}
+          expensive the service, the more benefits it brings to your workouts
         </p>
         <PTable />
       </div>

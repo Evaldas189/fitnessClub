@@ -1,0 +1,18 @@
+.infoPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 90vh;
+}
+.text-Box {
+  background-color: antiquewhite;
+  padding: 150px 200px;
+  text-align: justify;
+  max-width: 1300px;
+  word-wrap: break-word;
+}
+.text-Box h2 {
+  color: rgb(59, 31, 31);
+}
