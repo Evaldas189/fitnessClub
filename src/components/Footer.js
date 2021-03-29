@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Footer.css";
+import ShareLink from 'react-facebook-share-link'
 
 function Footer() {
   return (
@@ -32,7 +33,7 @@ function Footer() {
               <div class="footer-link-items">
                 <h2>About Us</h2>
                 <Link to="/sign-up">How it works</Link>
-                <Link to="/">Testimonials</Link>
+                <a href="https://gymnation.com/blog/">FitClub blog</a>
                 <Link to="/">Careers</Link>
                 <Link to="/">Investors</Link>
                 <Link to="/">Terms of Service</Link>
@@ -47,17 +48,20 @@ function Footer() {
             </div>
             <div className="footer-link-wrapper">
               <div class="footer-link-items">
-                <h2>Videos</h2>
-                <Link to="/">Submit Video</Link>
-                <Link to="/">Ambassadors</Link>
-                <Link to="/">Agency</Link>
-                <Link to="/">Influencer</Link>
+                <h2>Support us</h2>
+                <a href="https://www.patreon.com/">Patreon</a>
+                <a href="https://en.liberapay.com/">Liberapay</a>
+
               </div>
               <div class="footer-link-items">
                 <h2>Social Media</h2>
-                <Link to="/">Instagram</Link>
-                <Link to="/">Facebook</Link>
-                <Link to="/">Youtube</Link>
+                <a href="https://www.instagram.com/explore/tags/gym/?hl=en">Instagram</a>
+                <ShareLink link='https://fitnessclub-gym.netlify.app/'>
+                  {link => (
+                    <a href={link} target='_blank'>Facebook</a>
+                  )}
+                </ShareLink>
+                <a href="https://www.youtube.com/watch?v=jDya7sl3sZ8">Youtube</a>
                 <Link to="/">Twitter</Link>
               </div>
             </div>
